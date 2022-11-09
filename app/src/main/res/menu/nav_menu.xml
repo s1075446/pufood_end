@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/homeFragment"
+            android:title="@string/home"
+            android:icon="@drawable/ic_round_home_24"/>
+
+        <item android:title="@string/information">
+        <menu>
+        <item
+            android:id="@+id/breakfastFragment"
+            android:title="@string/breakfast"
+            android:icon="@drawable/sun"/>
+            <item
+                android:id="@+id/lunchFragment"
+                android:title="@string/lunch"
+                android:icon="@drawable/ic_round_local_dining_24"/>
+            <item
+                android:id="@+id/dinnerFragment"
+                android:title="@string/dinner"
+                android:icon="@drawable/dinner"/>
+
+        </menu>
+        </item>
+        <item android:title="@string/profile">
+            <menu>
+            <item
+                android:id="@+id/loginFragment2"
+                android:title="@string/login"
+                android:icon="@drawable/ic_round_login_24"/>
+            <item
+                android:id="@+id/profileFragment"
+                android:title="@string/profile1"
+                android:icon="@drawable/ic_round_person_24"/>
+
+            <item
+                android:id="@+id/passwordFragment"
+                android:title="@string/password"
+                android:icon="@drawable/ic_round_vpn_key_24"/>
+
+            <item
+                android:id="@+id/collectFragment"
+                android:title="@string/collect"
+                android:icon="@drawable/ic_round_bookmark_24"/>
+                </menu>
+        </item>
+
+        <item android:title="關於我們">
+        <menu>
+        <item
+            android:id="@+id/serviceFragment2"
+            android:title="@string/service"
+            android:icon="@drawable/ic_round_insert_emoticon_24"/>
+
+        <item
+            android:id="@+id/aboutFragment2"
+            android:title="@string/about"
+            android:icon="@drawable/ic_round_info_24"/>
+
+        </menu>
+        </item>
+
+    </group>
+
+</menu>

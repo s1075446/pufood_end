@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.181" />
+        <entry key="app/src/main/res/drawable/ic_round_home_24.xml" value="0.137" />
+        <entry key="app/src/main/res/drawable/ic_round_login_24.xml" value="0.159" />
+        <entry key="app/src/main/res/drawable/shape.xml" value="0.159" />
+        <entry key="app/src/main/res/drawable/shape1.xml" value="0.159" />
+        <entry key="app/src/main/res/drawable/style.xml" value="0.159" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.14365692138671876" />
+        <entry key="app/src/main/res/layout/fragment_about.xml" value="0.18704710144927536" />
+        <entry key="app/src/main/res/layout/fragment_collect.xml" value="0.18704710144927536" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.18704710144927536" />
+        <entry key="app/src/main/res/layout/fragment_information.xml" value="0.18704710144927536" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.18704710144927536" />
+        <entry key="app/src/main/res/layout/fragment_password.xml" value="0.18704710144927536" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.2519012451171875" />
+        <entry key="app/src/main/res/layout/fragment_service.xml" value="0.18704710144927536" />
+        <entry key="app/src/main/res/layout/fragment_service1.xml" value="0.1933876811594203" />
+        <entry key="app/src/main/res/layout/header_layout.xml" value="0.18704710144927536" />
+        <entry key="app/src/main/res/menu/nav_menu.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.137" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

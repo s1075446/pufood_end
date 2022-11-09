@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/scrollView2"
+    tools:context=".AboutFragment"
+    android:layout_height="match_parent">
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/about">
+
+        <!--1-->
+        <ImageView
+            android:id="@+id/ImageView1"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/l1"
+            app:layout_constraintBottom_toBottomOf="@id/View1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="@id/View1"
+            app:layout_constraintStart_toEndOf="@id/ImageView1"
+            android:text="初曉 江戶天婦羅專賣店 沙鹿店
+\n地址：台中市北勢頭北勢東路562號
+\n電話：04-26338331
+\n營業時間：11:00~21:30
+\n相關網頁：facebook.com/DawnPU562
+\n外送服務：foodpanda、uber eat
+
+"
+            android:textSize="15dp"/>
+
+        <View
+            android:id="@+id/View1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="8dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintTop_toBottomOf="@id/textView1"
+            app:layout_constraintStart_toStartOf="parent"/>
+        <!--2-->
+        <ImageView
+            android:id="@+id/ImageView2"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="10dp"
+            android:layout_marginStart="8dp"
+            android:maxHeight="55dp"
+            android:src="@drawable/l2"
+            app:layout_constraintBottom_toTopOf="@id/View2"
+            app:layout_constraintTop_toBottomOf="@id/View1"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:layout_constraintTop_toBottomOf="@id/View1"
+            app:layout_constraintBottom_toTopOf="@id/View2"
+            app:layout_constraintStart_toEndOf="@id/ImageView2"
+            android:text="韓味煮藝
+\n地址：台中市沙鹿區北勢東路682號
+\n電話：0937-290-939
+\n營業時間：11:00~21:00
+\n相關連結：尚未提供
+\n外送服務：尚未提供
+"
+            android:textSize="15dp"/>
+
+        <View
+            android:id="@+id/View2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="8dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintTop_toBottomOf="@id/textView2"
+            app:layout_constraintBottom_toTopOf="@id/textView3"/>
+
+        <!--3-->
+        <ImageView
+            android:id="@+id/ImageView3"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="10dp"
+            android:layout_marginStart="8dp"
+            android:maxHeight="55dp"
+            android:src="@drawable/l3"
+            app:layout_constraintBottom_toTopOf="@id/View3"
+            app:layout_constraintTop_toBottomOf="@id/View2"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:layout_constraintTop_toBottomOf="@id/View2"
+            app:layout_constraintBottom_toTopOf="@id/View3"
+            app:layout_constraintStart_toEndOf="@id/ImageView3"
+            android:text="X麻尹 日式丼飯-台中沙鹿店
+\n地址：台中市北勢頭北勢東路672號
+\n電話：04-26327889
+\n營業時間：11:00~2:00 17:00~21:00
+\n相關連結：wumayishalu.business.site
+\n外送服務：foodpanda、gofoodie
+
+"
+            android:textSize="15dp"/>
+
+        <View
+            android:id="@+id/View3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="8dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintTop_toBottomOf="@id/textView3"
+            app:layout_constraintBottom_toTopOf="@id/textView3"/>
+
+        <!--4-->
+        <ImageView
+            android:id="@+id/ImageView4"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="10dp"
+            android:layout_marginStart="8dp"
+            android:maxHeight="55dp"
+            android:src="@drawable/l4"
+            app:layout_constraintBottom_toTopOf="@id/View4"
+            app:layout_constraintTop_toBottomOf="@id/View3"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:layout_constraintTop_toBottomOf="@id/View3"
+            app:layout_constraintBottom_toTopOf="@id/View4"
+            app:layout_constraintStart_toEndOf="@id/ImageView4"
+            android:text="能量星輕食餐盒Power star 沙鹿店
+\n地址：台中市沙鹿區北勢東路677號
+\n電話：04-26526009
+\n營業時間：11:00~13:30 \n16:30~19:30（週日休息）
+\n外送服務：uber eat
+
+"
+            android:textSize="15dp"/>
+
+        <View
+            android:id="@+id/View4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="8dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintTop_toBottomOf="@id/textView4"
+            app:layout_constraintBottom_toTopOf="@id/textView4"/>
+
+        <!--5-->
+        <ImageView
+            android:id="@+id/ImageView5"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="10dp"
+            android:layout_marginStart="8dp"
+            android:maxHeight="55dp"
+            android:src="@drawable/l5"
+            app:layout_constraintBottom_toTopOf="@id/View5"
+            app:layout_constraintTop_toBottomOf="@id/View4"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:layout_constraintTop_toBottomOf="@id/View4"
+            app:layout_constraintBottom_toTopOf="@id/View5"
+            app:layout_constraintStart_toEndOf="@id/ImageView5"
+            android:text="阿文壽司生魚片專賣店
+\n地址：台中市北勢頭北勢東路645號
+\n電話：0930-503-507
+\n營業時間：11:00~2:00 \n16:00~20:00（週三休息）
+\n相關連結：facebook.com/YWEN.INSUN
+\n外送服務：uber eat、gofoodie
+"
+            android:textSize="15dp"/>
+
+        <View
+            android:id="@+id/View5"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="8dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintTop_toBottomOf="@id/textView5"
+            app:layout_constraintBottom_toTopOf="@id/textView5"/>
+
+        <!--6-->
+        <ImageView
+            android:id="@+id/ImageView6"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="10dp"
+            android:layout_marginStart="8dp"
+            android:maxHeight="55dp"
+            android:src="@drawable/l6"
+            app:layout_constraintBottom_toTopOf="@id/View6"
+            app:layout_constraintTop_toBottomOf="@id/View5"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:layout_constraintTop_toBottomOf="@id/View5"
+            app:layout_constraintBottom_toTopOf="@id/View6"
+            app:layout_constraintStart_toEndOf="@id/ImageView6"
+            android:text="梁家麵館
+\n地址：台中市北勢頭北勢東路635號
+\n電話：04-26330768
+\n營業時間：11:00~19:30 （週六、日休息）
+\n相關連結：尚未提供
+\n外送服務：uber eat
+"
+            android:textSize="15dp"/>
+
+        <View
+            android:id="@+id/View6"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="8dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintTop_toBottomOf="@id/textView6"
+            app:layout_constraintBottom_toTopOf="@id/textView6"/>
+
+        <!--7-->
+        <ImageView
+            android:id="@+id/ImageView7"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="10dp"
+            android:layout_marginStart="8dp"
+            android:maxHeight="55dp"
+            android:src="@drawable/l7"
+            app:layout_constraintBottom_toTopOf="@id/View7"
+            app:layout_constraintTop_toBottomOf="@id/View6"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:layout_constraintTop_toBottomOf="@id/View6"
+            app:layout_constraintBottom_toTopOf="@id/View7"
+            app:layout_constraintStart_toEndOf="@id/ImageView7"
+            android:text="愛將平價牛排 靜宜店
+\n地址：台中市沙鹿區北勢東路600號
+\n電話：04-26327773
+\n營業時間：11:00~23:00
+\n相關連結：https://restaurant-104166.business.site/
+\n外送服務：foodpanda、uber eat
+"
+            android:textSize="15dp"/>
+
+        <View
+            android:id="@+id/View7"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="8dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintTop_toBottomOf="@id/textView7"
+            app:layout_constraintBottom_toTopOf="@id/textView7"/>
+
+        <!--8-->
+        <ImageView
+            android:id="@+id/ImageView8"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="10dp"
+            android:layout_marginStart="8dp"
+            android:maxHeight="55dp"
+            android:src="@drawable/l8"
+            app:layout_constraintBottom_toTopOf="@id/View8"
+            app:layout_constraintTop_toBottomOf="@id/View7"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:layout_constraintTop_toBottomOf="@id/View7"
+            app:layout_constraintBottom_toTopOf="@id/View8"
+            app:layout_constraintStart_toEndOf="@id/ImageView5"
+            android:text="饗樂鐵板燒
+\n地址：台中市北勢頭北勢東路596號
+\n電話：04-26526612
+\n營業時間：11:00~21:30
+\n相關連結：facebook.com/Hsiangle2016
+\n外送服務：foodpanda、uber eat
+"
+            android:textSize="15dp"/>
+
+        <View
+            android:id="@+id/View8"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="8dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintTop_toBottomOf="@id/textView8"
+            app:layout_constraintBottom_toTopOf="@id/textView8"/>
+
+        <!--9-->
+        <ImageView
+            android:id="@+id/ImageView9"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="10dp"
+            android:layout_marginStart="8dp"
+            android:maxHeight="55dp"
+            android:src="@drawable/l9"
+            app:layout_constraintBottom_toTopOf="@id/View9"
+            app:layout_constraintTop_toBottomOf="@id/View8"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:layout_constraintTop_toBottomOf="@id/View8"
+            app:layout_constraintBottom_toTopOf="@id/View9"
+            app:layout_constraintStart_toEndOf="@id/ImageView9"
+            android:text="滿好鐵板料理
+\n地址：台中市沙鹿區北勢東路800號
+\n電話：04-26330508
+\n營業時間：11:30~14:00 15:00~21:00
+\n相關網頁：https://reurl.cc/10YpXY
+\n外送服務：尚未提供
+"
+            android:textSize="15dp"/>
+
+        <View
+            android:id="@+id/View9"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="8dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintTop_toBottomOf="@id/textView9"
+            app:layout_constraintBottom_toTopOf="@id/textView9"/>
+
+        <!--10-->
+        <ImageView
+            android:id="@+id/ImageView10"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="10dp"
+            android:layout_marginStart="8dp"
+            android:maxHeight="55dp"
+            android:src="@drawable/l10"
+            app:layout_constraintBottom_toTopOf="@id/View10"
+            app:layout_constraintTop_toBottomOf="@id/View9"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:layout_constraintTop_toBottomOf="@id/View9"
+            app:layout_constraintBottom_toTopOf="@id/View10"
+            app:layout_constraintStart_toEndOf="@id/ImageView10"
+            android:text="櫃森森
+\n地址：台中市北勢頭北勢東路800號（正對面）
+\n電話：04-26312885
+\n營業時間：週一、三～日 11:00~14:00 \n17:00~22:00 週二11:00~22:00
+\n相關網頁：尚未提供
+\n外送服務：foodpanda、uber eat
+"
+            android:textSize="15dp"/>
+
+        <View
+            android:id="@+id/View10"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="8dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintTop_toBottomOf="@id/textView10"
+            app:layout_constraintBottom_toTopOf="@id/textView10"/>
+
+        <!--11-->
+        <ImageView
+            android:id="@+id/ImageView11"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="10dp"
+            android:layout_marginStart="8dp"
+            android:maxHeight="55dp"
+            android:src="@drawable/l11"
+            app:layout_constraintBottom_toTopOf="@id/View11"
+            app:layout_constraintTop_toBottomOf="@id/View10"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:layout_constraintTop_toBottomOf="@id/View10"
+            app:layout_constraintBottom_toTopOf="@id/View11"
+            app:layout_constraintStart_toEndOf="@id/ImageView11"
+            android:text="志氣雞飯 沙鹿店
+\n地址：台中市北勢頭北勢東路800號
+\n電話：0916-072-146
+\n營業時間：11:00~14:00 17:00~20:00（週日休息）
+\n相關網頁：https://reurl.cc/QW9O52
+\n外送服務：foodpanda
+"
+            android:textSize="15dp"/>
+
+        <View
+            android:id="@+id/View11"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="8dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintTop_toBottomOf="@id/textView11"
+            app:layout_constraintBottom_toTopOf="@id/textView11"/>
+
+        <!--12-->
+        <ImageView
+            android:id="@+id/ImageView12"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="10dp"
+            android:layout_marginStart="8dp"
+            android:maxHeight="55dp"
+            android:src="@drawable/l12"
+            app:layout_constraintBottom_toTopOf="@id/View12"
+            app:layout_constraintTop_toBottomOf="@id/View11"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:layout_constraintTop_toBottomOf="@id/View11"
+            app:layout_constraintBottom_toTopOf="@id/View12"
+            app:layout_constraintStart_toEndOf="@id/ImageView12"
+            android:text="築熱翻地
+\n地址：台中市沙鹿區北中六街 兒童公園對面
+\n電話：04-26523282
+\n營業時間：11:00~14:00 \n17:00~21:00 （週三休息）
+\n相關網頁：https://reurl.cc/kqZQMK/
+\n外送服務：尚未提供
+"
+            android:textSize="15dp"/>
+
+        <View
+            android:id="@+id/View12"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="8dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintTop_toBottomOf="@id/textView12"
+            app:layout_constraintBottom_toTopOf="@id/textView12"/>
+
+        <!--13-->
+        <ImageView
+            android:id="@+id/ImageView13"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="10dp"
+            android:layout_marginStart="8dp"
+            android:maxHeight="55dp"
+            android:src="@drawable/l13"
+            app:layout_constraintBottom_toTopOf="@id/View13"
+            app:layout_constraintTop_toBottomOf="@id/View12"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:layout_constraintTop_toBottomOf="@id/View12"
+            app:layout_constraintBottom_toTopOf="@id/View13"
+            app:layout_constraintStart_toEndOf="@id/ImageView13"
+            android:text="嘉義老牌石頭小火鍋-沙鹿店
+\n地址：台中市北勢頭北勢東路706號
+\n電話：0963-128-262
+\n營業時間：11:00~23:00
+\n相關網頁：https://reurl.cc/58rED7
+\n外送服務：尚未提供
+"
+            android:textSize="15dp"/>
+
+        <View
+            android:id="@+id/View13"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="8dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintTop_toBottomOf="@id/textView13"
+            app:layout_constraintBottom_toTopOf="@id/textView13"/>
+
+        <!--14-->
+        <ImageView
+            android:id="@+id/ImageView14"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="10dp"
+            android:layout_marginStart="8dp"
+            android:maxHeight="55dp"
+            android:src="@drawable/l14"
+            app:layout_constraintBottom_toTopOf="@id/View14"
+            app:layout_constraintTop_toBottomOf="@id/View13"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:layout_constraintTop_toBottomOf="@id/View13"
+            app:layout_constraintBottom_toTopOf="@id/View14"
+            app:layout_constraintStart_toEndOf="@id/ImageView14"
+            android:text="淺草 來來軒日式拉麵
+\n地址：台中市北勢頭北勢東路727號
+\n電話：0968-907-468
+\n營業時間：12:00~14:00 \n17:30~20:30 （週一休息）
+\n相關網頁：尚未提供
+\n外送服務：尚未提供
+"
+            android:textSize="15dp"/>
+
+        <View
+            android:id="@+id/View14"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="8dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintTop_toBottomOf="@id/textView14"
+            app:layout_constraintBottom_toTopOf="@id/textView14"/>
+
+        <!--15-->
+        <ImageView
+            android:id="@+id/ImageView15"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="10dp"
+            android:layout_marginStart="8dp"
+            android:maxHeight="55dp"
+            android:src="@drawable/l15"
+            app:layout_constraintBottom_toTopOf="@id/View15"
+            app:layout_constraintTop_toBottomOf="@id/View14"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:layout_constraintTop_toBottomOf="@id/View14"
+            app:layout_constraintBottom_toTopOf="@id/View15"
+            app:layout_constraintStart_toEndOf="@id/ImageView14"
+            android:text="鄧家牛肉麵
+\n地址：台中市北勢頭北勢東路688號
+\n電話：04-26336381
+\n營業時間：11:00~14:00 \n17:00~20:00（週二休息）
+\n相關網頁：https://reurl.cc/OE0eYR
+\n外送服務：uber eat
+"
+            android:textSize="15dp"/>
+
+        <View
+            android:id="@+id/View15"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="8dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintTop_toBottomOf="@id/textView15"
+            app:layout_constraintBottom_toTopOf="@id/textView15"/>
+
+        <!--16-->
+        <ImageView
+            android:id="@+id/ImageView16"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="10dp"
+            android:layout_marginStart="8dp"
+            android:maxHeight="55dp"
+            android:src="@drawable/l16"
+            app:layout_constraintBottom_toTopOf="@id/View16"
+            app:layout_constraintTop_toBottomOf="@id/View15"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:layout_constraintTop_toBottomOf="@id/View15"
+            app:layout_constraintBottom_toTopOf="@id/View16"
+            app:layout_constraintStart_toEndOf="@id/ImageView15"
+            android:text="吳記上海生煎包
+\n地址：台中市北勢頭北勢東路692號
+\n電話：0930-328-903
+\n營業時間：13:00~18:45（週一休息）
+\n相關網頁：facebook.com/235547807143952
+\n外送服務：尚未提供
+"
+            android:textSize="15dp"/>
+
+        <View
+            android:id="@+id/View16"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="8dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintTop_toBottomOf="@id/textView16"
+            app:layout_constraintBottom_toTopOf="@id/textView16"/>
+
+        <!--17-->
+        <ImageView
+            android:id="@+id/ImageView17"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="10dp"
+            android:layout_marginStart="8dp"
+            android:maxHeight="55dp"
+            android:src="@drawable/l17"
+            app:layout_constraintBottom_toTopOf="@id/View17"
+            app:layout_constraintTop_toBottomOf="@id/View16"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:layout_constraintTop_toBottomOf="@id/View16"
+            app:layout_constraintBottom_toTopOf="@id/View17"
+            app:layout_constraintStart_toEndOf="@id/ImageView15"
+            android:text="八仙廚房
+\n地址：台中市北勢頭北勢東路698號
+\n電話：0984-279-066（週四休息）
+\n營業時間：11:00~14:30  16:30~21:00
+\n相關網頁：https://reurl.cc/NGrEYn
+\n外送服務：尚未提供
+"
+            android:textSize="15dp"/>
+
+        <View
+            android:id="@+id/View17"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="8dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintTop_toBottomOf="@id/textView17"
+            app:layout_constraintBottom_toTopOf="@id/textView17"/>
+
+        <!--18-->
+        <ImageView
+            android:id="@+id/ImageView18"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="10dp"
+            android:layout_marginStart="8dp"
+            android:maxHeight="55dp"
+            android:src="@drawable/l18"
+            app:layout_constraintBottom_toTopOf="@id/View18"
+            app:layout_constraintTop_toBottomOf="@id/View17"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:layout_constraintTop_toBottomOf="@id/View17"
+            app:layout_constraintBottom_toTopOf="@id/View18"
+            app:layout_constraintStart_toEndOf="@id/ImageView17"
+            android:text="Just go就是鍋
+\n地址：台中市北勢頭北勢東路729號
+\n電話：04-26338086
+\n營業時間：11:00~15:30  16:00~21:30
+\n相關網頁：facebook.com/106136617626301
+\n外送服務：尚未提供
+"
+            android:textSize="15dp"/>
+
+        <View
+            android:id="@+id/View18"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="8dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintTop_toBottomOf="@id/textView18"
+            app:layout_constraintBottom_toTopOf="@id/textView18"/>
+
+        <!--19-->
+        <ImageView
+            android:id="@+id/ImageView19"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="10dp"
+            android:layout_marginStart="8dp"
+            android:maxHeight="55dp"
+            android:src="@drawable/l19"
+            app:layout_constraintBottom_toTopOf="@id/View19"
+            app:layout_constraintTop_toBottomOf="@id/View18"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:layout_constraintTop_toBottomOf="@id/View18"
+            app:layout_constraintBottom_toTopOf="@id/View19"
+            app:layout_constraintStart_toEndOf="@id/ImageView18"
+            android:text="沙鹿大腸麵線
+\n地址：台中市北勢頭北勢東路623號
+\n電話：0983-020-255
+\n營業時間：11:00~21:00（週六休息）
+\n相關網頁：https://reurl.cc/NGrEYe"
+            android:textSize="15dp"/>
+
+        <View
+            android:id="@+id/View19"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="8dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintTop_toBottomOf="@id/textView19"
+            app:layout_constraintBottom_toTopOf="@id/textView19"/>
+
+        <!--20-->
+        <ImageView
+            android:id="@+id/ImageView20"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="10dp"
+            android:layout_marginStart="8dp"
+            android:maxHeight="55dp"
+            android:src="@drawable/l20"
+            app:layout_constraintBottom_toTopOf="@id/View20"
+            app:layout_constraintTop_toBottomOf="@id/View19"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:layout_constraintTop_toBottomOf="@id/View19"
+            app:layout_constraintBottom_toTopOf="@id/View20"
+            app:layout_constraintStart_toEndOf="@id/ImageView19"
+            android:text="嘉鄰快餐
+\n地址：台中市北勢頭北勢東路820號
+\n電話：04-26336381
+\n營業時間：10:00~14:30 \n16:30~20:00（週日休息）
+\n相關網頁：尚未提供
+\n外送服務：尚未提供
+"
+            android:textSize="15dp"/>
+
+        <View
+            android:id="@+id/View20"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="8dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintTop_toBottomOf="@id/textView20"
+            app:layout_constraintBottom_toTopOf="@id/textView20"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>
